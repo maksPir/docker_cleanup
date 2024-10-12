@@ -6,6 +6,10 @@
 6.	pip install docker-squash
 	docker-squash -с newImageName – сжатие слоев
 7.	docker rmi image_id – удалить конкретный образ
-8.	docker images -f dangling=true – полчение висячих образов
+8.	docker images -f dangling=true – получение висячих образов
 9.	docker ps -a – список всех контейнеров
 10.	docker images – список всех образов
+
+Для запуска скрипта необходимо выполнить команды:
+chmod +x docker_cleanup.sh
+./docker_cleanup.sh
