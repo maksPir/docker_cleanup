@@ -10,6 +10,6 @@
 9.	docker ps -a – список всех контейнеров
 10.	docker images – список всех образов
 
-Для запуска скрипта необходимо выполнить команды:
-chmod +x docker_cleanup.sh
+#Для запуска скрипта необходимо выполнить команды:
+chmod +x docker_cleanup.sh   
 ./docker_cleanup.sh <Название образа>
