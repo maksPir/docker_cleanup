@@ -12,4 +12,4 @@
 
 Для запуска скрипта необходимо выполнить команды:
 chmod +x docker_cleanup.sh
-./docker_cleanup.sh
+./docker_cleanup.sh <Название образа>
